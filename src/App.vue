@@ -39,7 +39,7 @@ function limpar() {
 
     <input class="form-control" type="number" placeholder="Digite o primeiro número" v-model.number="numero1">
 
-    <select class="form-select my-3" v-model="operacao">
+    <select class="form-select my-3 text-primary fw-bold" v-model="operacao">
       <option value="+">Somar (+)</option>
       <option value="-">Subtrair (-)</option>
       <option value="*">Multiplicar (*)</option>
